@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="moduleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00838F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="8" fill="url(#moduleGrad)"/>
+  <!-- Package folder -->
+  <path d="M8 16 L8 52 L56 52 L56 20 L32 20 L28 16 Z" fill="white" opacity="0.9"/>
+  <!-- Module files inside -->
+  <rect x="12" y="24" width="12" height="16" rx="1" fill="#00BCD4" opacity="0.8"/>
+  <text x="18" y="30" font-family="Arial, sans-serif" font-size="5" font-weight="bold" text-anchor="middle" fill="white">mod1</text>
+  <text x="18" y="36" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="white">.py</text>
+  <rect x="28" y="24" width="12" height="16" rx="1" fill="#00BCD4" opacity="0.8"/>
+  <text x="34" y="30" font-family="Arial, sans-serif" font-size="5" font-weight="bold" text-anchor="middle" fill="white">mod2</text>
+  <text x="34" y="36" font-family="Arial, sans-serif" font-size="4" text-anchor="middle" fill="white">.py</text>
+  <rect x="44" y="24" width="8" height="16" rx="1" fill="#FF9800" opacity="0.8"/>
+  <text x="48" y="30" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="white">__init__</text>
+  <text x="48" y="36" font-family="Arial, sans-serif" font-size="3" text-anchor="middle" fill="white">.py</text>
+  <!-- Import arrow -->
+  <path d="M20 44 Q32 48 44 44" stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+  <polygon points="44,44 40,42 40,46" fill="white" opacity="0.8"/>
+  <!-- Import text -->
+  <text x="32" y="50" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="middle" fill="white">import</text>
+</svg>
