@@ -39,14 +39,14 @@ pip install -r requirements.txt
 
 ### 第一部分：Python基础语法
 
-#### ![Variables Icon](assets/variables-icon.svg) 1. **变量与数据类型** (`01_variables_and_types/`)
+#### ![Variables Icon](assets/debugging_testing.svg) 1. **变量与数据类型** (`01_variables_and_types/`)
    - 基本数据类型：int, float, str, bool
    - 变量命名规则和最佳实践
    - 类型转换和类型检查
    - 常量定义和使用
    - 内存管理基础
 
-#### ![Operators Icon](assets/operators-icon.svg) 2. **运算符** (`02_operators/`)
+#### ![Operators Icon](assets/advanced_features.svg) 2. **运算符** (`02_operators/`)
    - 算术运算符 (+, -, *, /, //, %, **)
    - 比较运算符 (==, !=, <, >, <=, >=)
    - 逻辑运算符 (and, or, not)
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### 第二部分：控制结构
 
-#### ![Control Icon](assets/control-icon.svg) 4. **控制结构** (`04_control_structures/`)
+#### ![Control Icon](assets/control_structures.svg) 4. **控制结构** (`04_control_structures/`)
    - 条件语句 (if, elif, else)
    - 循环结构 (for, while)
    - 控制流语句 (break, continue, pass)
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### 第三部分：数据结构
 
-#### ![Data Structures Icon](assets/data-structures-icon.svg) 5. **数据结构** (`05_data_structures/`)
+#### ![Data Structures Icon](assets/data_processor.svg) 5. **数据结构** (`05_data_structures/`)
    - 列表 (List) - 创建、访问、方法、推导式
    - 元组 (Tuple) - 特性、操作、命名元组
    - 字典 (Dictionary) - 创建、访问、方法、推导式
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 ### 第四部分：函数
 
-#### ![Functions Icon](assets/functions-icon.svg) 6. **函数** (`06_functions/`)
+#### ![Functions Icon](assets/functions.svg) 6. **函数** (`06_functions/`)
    - 函数定义和调用
    - 参数传递 (位置参数、关键字参数)
    - 默认参数和可变参数 (*args, **kwargs)
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ### 第五部分：面向对象编程
 
-#### ![OOP Icon](assets/oop-icon.svg) 7. **面向对象编程** (`07_oop/`)
+#### ![OOP Icon](assets/oop.svg) 7. **面向对象编程** (`07_oop/`)
    - 类和对象的概念
    - 类的定义和实例化
    - 属性和方法
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 ### 第六部分：异常处理
 
-#### ![Exception Icon](assets/exception-icon.svg) 8. **异常处理** (`08_exception_handling/`)
+#### ![Exception Icon](assets/exceptions.svg) 8. **异常处理** (`08_exception_handling/`)
    - 异常的概念和类型
    - try, except, else, finally 语句
    - 异常捕获和处理
@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 ### 第七部分：文件操作
 
-#### ![File Icon](assets/file-icon.svg) 9. **文件操作** (`09_file_operations/`)
+#### ![File Icon](assets/file_operations.svg) 9. **文件操作** (`09_file_operations/`)
    - 文件读写操作
    - 文件模式和编码
    - 上下文管理器 (with 语句)
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ### 第八部分：模块和包
 
-#### ![Modules Icon](assets/modules-icon.svg) 10. **模块和包** (`10_modules_packages/`)
+#### ![Modules Icon](assets/modules.svg) 10. **模块和包** (`10_modules_packages/`)
    - 模块的概念和导入
    - 标准库模块
    - 自定义模块创建
