@@ -1,0 +1,16 @@
+{
+  "pipeline": {
+    "max_workers": 4,
+    "timeout": 300
+  },
+  "plugins": {
+    "auto_load": true,
+    "plugin_dirs": [
+      "plugins"
+    ]
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}

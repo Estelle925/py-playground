@@ -1,0 +1,23 @@
+
+{
+  "pipeline": {
+    "max_workers": 4,
+    "timeout": 300
+  },
+  "plugins": {
+    "auto_load": true,
+    "plugin_dirs": ["plugins"]
+  },
+  "stages": [
+    {
+      "plugin": "text_cleaner",
+      "config": {}
+    },
+    {
+      "plugin": "text_splitter",
+      "config": {
+        "delimiter": " "
+      }
+    }
+  ]
+}
